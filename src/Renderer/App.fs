@@ -26,7 +26,7 @@ type Page =
       Snackbars; StaticAssets; TextFields ]
 
 let pageTitle = function
-  | Home -> "Home"
+  | Home -> Helper.changeMe()
   | Autocomplete -> "Autocomplete"
   | Badges -> "Badges"
   | Dialogs -> "Dialogs"
