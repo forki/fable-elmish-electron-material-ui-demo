@@ -5,10 +5,10 @@
   <ItemGroup>
     <None Include="paket.references" />
     <None Include="scss/main.scss" />
-    <Compile Include="../../shared/Helper.fs" />
+    <Compile Include="..\..\shared\Helper.fs" />
     <Compile Include="Utils.fs" />
     <Compile Include="SnackbarLib.fs" />
-    <Compile Include="Autocomplete.fs" />
+    <Compile Include="AutoComplete.fs" />
     <Compile Include="Badges.fs" />
     <Compile Include="Dialogs.fs" />
     <Compile Include="SaveLoad.fs" />
